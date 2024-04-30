@@ -1,0 +1,25 @@
+.content-tabs {
+    position: absolute;
+    padding: 30px 30px;
+    width: 100%;
+    max-width: 1400px;
+    left: 0px;
+    transition: all 1s;
+  }
+  
+  .content-tabs.active {
+    left: 300px;
+    width: 70%;
+  }
+  
+  .tabs.active {
+    background: #3498db;
+  }
+  
+  .content {
+    display: none;
+  } 
+  
+  .content.active {
+    display: block;
+  }
